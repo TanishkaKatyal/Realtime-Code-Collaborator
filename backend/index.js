@@ -136,7 +136,7 @@ io.on('connection', (socket) => {
     socket.on("getAIReview", async ({roomId, code}) => {
         try {
 
-            const model = genAI.getGenerativeModel({ model: "models/gemini-2.0-flash" });
+            const model = genAI.getGenerativeModel({ model: "models/gemini-2.5-flash" });
             const prompt = `
             You're an expert code reviewer of the language "${detectLang(code)}" and love to give code suggestions. 
             Generate a brief review of the code "${code}".
