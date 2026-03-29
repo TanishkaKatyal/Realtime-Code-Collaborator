@@ -22,7 +22,7 @@ const io = new Server(server, {
     }
 });
 
-const apiKey = "AIzaSyCyEe0nVsBl4g7awZKSKsjCSIwfCfiLbGE";
+const apiKey = "AIzaSyCxoSS1jro8uQpOn13W15HRJS_byAkK_Jk";
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const defaultVersions = {
